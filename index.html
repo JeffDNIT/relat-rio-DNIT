@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Avaliação Técnica - DNIT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header img {
+            max-width: 200px;
+        }
+
+        nav {
+            background-color: #343a40;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #495057;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .tab-content:target {
+            display: block;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2, h3, h4 {
+            color: #343a40;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .nota-final {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://seeklogo.com/images/D/DNIT-logo-6B6F6B6F6B-seeklogo.com.png" alt="DNIT Logo">
+        <h1>Relatório de Avaliação Técnica - DNIT</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#ecoplan">ECOPLAN</a></li>
+            <li><a href="#engevix">ENGEVIX</a></li>
+        </ul>
+    </nav>
+    <div id="ecoplan" class="tab-content">
+        <h2>ECOPLAN</h2>
+        <section>
+            <h3>Etapa 1 - Experiência do Licitante</h3>
+            <table>
+                <tr>
+                    <th>Pontuação Máxima</th>
+                    <th>Nota Obtida</th>
+                    <th>Percentual</th>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>17</td>
+                    <td>85%</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h3>Etapa 2 - Metodologia, Equipe Técnica e Outros Critérios</h3>
+            <div>
+                <h4>Item A - Conhecimento</h4>
+                <table>
+                    <tr>
+                        <th>Pontuação Máxima</th>
+                        <th>Nota Obtida</th>
+                        <th>Percentual</th>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>5.67</td>
+                        <td>28.35%</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h4>Item B - Metodologia</h4>
+                <table>
+                    <tr>
+                        <th>Pontuação Máxima</th>
+                        <th>Nota Obtida</th>
+                        <th>Percentual</th>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>13.5</td>
+                        <td>54%</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h4>Item C - Equipe</h4>
+                <table>
+                    <tr>
+                        <th>Pontuação Máxima</th>
+                        <th>Nota Obtida</th>
+                        <th>Percentual</th>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>24</td>
+                        <td>100%</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h4>Item D - Produtos</h4>
+                <table>
+                    <tr>
+                        <th>Pontuação Máxima</th>
+                        <th>Nota Obtida</th>
+                        <th>Percentual</th>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>6</td>
+                        <td>60%</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h3>Nota Final</h3>
+            <p class="nota-final">55.17</p>
+        </section>
+    </div>
+    <div id="engevix" class="tab-content">
+        <h2>ENGEVIX</h2>
+        <section>
+            <h3>Etapa 1 - Experiência do Licitante</h3>
+            <table>
+                <tr>
+                    <th>Pontuação Máxima</th>
+                    <th>Nota Obtida</th>
+                    <th>Percentual</th>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>19</td>
+                    <td>95%</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h3>Etapa 2 - Metodologia, Equipe Técnica e Outros Critérios</h3>
+            <div>
+                <h4>Item A - Conhecimento</h4>
+                <table>
+                    <tr>
+                        <th>Pontuação Máxima</th>
+                        <th>Nota Obtida</th>
+                        <th>Percentual</th>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>8.97</td>
+                        <td>45%</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h4>Item B - Metodologia</h4>
+                <table>
+                    <tr>
+                        <th>Pontuação Máxima</th>
+                        <th>Nota Obtida</th>
+                        <th>Percentual</th>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>22.5</td>
+                        <td>90%</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h4>Item C - Equipe</h4>
+                <table>
+                    <tr>
+                        <th>Pontuação Máxima</th>
+                        <th>Nota Obtida</th>
+                        <th>Percentual</th>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>24</td>
+                        <td>100%</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h4>Item D - Produtos</h4>
+                <table>
+                    <tr>
+                        <th>Pontuação Máxima</th>
+                        <th>Nota Obtida</th>
+                        <th>Percentual</th>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>8</td>
+                        <td>80%</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h3>Nota Final</h3>
+            <p class="nota-final">82.47</p>
+        </section>
+    </div>
+</body>
+</html>            "não consigo visualizar esse código na web. Como pode transformá-lo para eu acessar na web" ?
